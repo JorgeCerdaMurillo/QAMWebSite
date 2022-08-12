@@ -275,8 +275,8 @@ body{
 }
 #informacion img{
 border-radius: 20%;
-height: 350px;
-width: 350px;
+height: 320px;
+width: 320px;
 display: inline-block;
 padding: 0 2% 0 0;
 
@@ -310,8 +310,8 @@ padding: 0 2% 0 0;
 }
 #informacion2 img{
 border-radius: 20%;
-height: 350px;
-width: 350px;
+height: 320px;
+width: 320px;
 display: inline-block;
 padding: 0 0 0 2%;
 }
@@ -332,7 +332,7 @@ padding: 0 0 0 2%;
 
 }
 .parrafo{
-   width: 1050px;
+   width: 75%;
 }
 /*///////////////////////////////////////////////////*/
  /*RESPONSIVE*/
@@ -388,6 +388,10 @@ padding: 0 0 0 2%;
    }
    /*Informacion*/
    #informacion{
+      flex-direction: column;
+
+   }
+   #informacion2{
       flex-direction: column;
 
    }
