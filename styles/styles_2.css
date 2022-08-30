@@ -49,6 +49,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
    display: none;
  }
 /*BANNER*/
+
+
 #banner{
    padding: 0 50px;
    background-image: url(../images/banner.jpg);
@@ -151,6 +153,7 @@ width: 250px;
    text-align: center;
 
 }
+
 .contenido-iconos div{
    flex: 1;
    margin: 20px 0px;
@@ -257,12 +260,6 @@ footer{
    text-align: center;
    padding: 10px 0px;
 }
-/*BODY*/
-
-body{
-
-}
-
 
 /*INFORMACION*/
 
@@ -334,6 +331,31 @@ padding: 0 0 0 2%;
 .parrafo{
    width: 75%;
 }
+/*CONTACTOSS*/
+.contactoss{
+   padding: 50px 50px 0px 50px;
+   display: flex;
+   justify-content:center;
+   text-align: center;
+}
+.contactoss  h6{
+   color: #fff;
+   font-size: 20px;
+   font-weight: 100;
+   margin: 10px 0px;}
+
+   /*EXTRAS*/
+.parrafo a{
+   color: #083019;
+   text-decoration: none;
+   padding: 0 10px;
+   transition: 0.4s;
+}
+
+.parrafo a:hover{
+   color:#6cc091;
+}
+
 /*///////////////////////////////////////////////////*/
  /*RESPONSIVE*/
 @media(max-width: 768px){
@@ -394,5 +416,8 @@ padding: 0 0 0 2%;
    #informacion2{
       flex-direction: column;
 
+   }
+   .contenidoss{
+      flex-direction: column;
    }
 }
