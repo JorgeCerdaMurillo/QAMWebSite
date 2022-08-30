@@ -78,9 +78,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
    justify-content: center;
 }
 .contenido-banner h4{
-   font-size: 30px;
-   font-weight: 400;
-   padding: 10px 0px;
+   font-size: 15px;
+   font-weight: 200;
+   padding: 5px 0px;
 }
 .contenido-banner h4 span{
    font-weight: 600;
