@@ -77,12 +77,12 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
    flex-direction: column;
    justify-content: center;
 }
-.contenido-banner h3{
+.contenido-banner h4{
    font-size: 30px;
    font-weight: 400;
    padding: 10px 0px;
 }
-.contenido-banner h3 span{
+.contenido-banner h4 span{
    font-weight: 600;
 
 }
