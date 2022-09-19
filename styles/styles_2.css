@@ -12,19 +12,24 @@ html{
 
  /*HEADER*/
  header{
-   height: 100px;
-   background-color: #8c834d;
+   height: 50px;
+   background: rgb(33,150,243);
+   background: linear-gradient(90deg, rgba(33,150,243,1) 0%, rgba(33,150,243,1) 35%, rgba(0,70,128,1) 100%);
    padding: 10px 50px;
    color: white;
    display: flex;
    justify-content: space-between;
    align-items: center;
+   border-width: 0.5px;
+   border-style: solid;
+   border-color: #03579cd3;
+  
 
  }
  
  .logo{
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	margin-right: 10px;
  }
  .menu a{
@@ -49,7 +54,7 @@ html{
  .menu a:hover, 
  .mostrar-menu:hover,
  .esconder-menu:hover{
-   color:#6cc091;
+   color:#97e9ff;
  }
  #check{
    display: none;
@@ -68,7 +73,7 @@ html{
 
 #banner::before{
    content: '';
-   background: rgba(140, 131, 77, 0.6);
+   background: #2195f388;
    position: absolute;
    width: 100%;
    height: 45vh;
@@ -95,12 +100,12 @@ html{
 .boton-empezar{
    text-decoration: none;
    color: #fff;
-   border: 1px solid #6cc091;
+   border: 1px solid #97e8ff9a;
    padding: 20px 40px;
    align-self: baseline;
 }
 .boton-empezar:hover{
-   background-color: #6cc09070;
+   background-color: #97e8ff93;
    transition: 0.4s;
 }
 
@@ -136,22 +141,23 @@ width: 250px;
 .boton-saber-mas{
    display: inline-block;
    text-decoration: none;
-   color: #6cc091;
+   color: #97e9ff;
    font-weight: bold;
-   border: 3px solid #6cc091;
+   border: 3px solid #97e9ff;
    padding: 10px 30px;
    border-radius: 30px;
    margin-top: 15px;
    transition: all 0.4s;
 }
 .boton-saber-mas:hover{
-   background: #6cc091;
+   background: #97e9ff;
    color: #fff;
 }
 /*ICONOS*/
 #iconos{
    padding: 0px 50px;
-   background: #8c834d;
+   background: rgb(33,150,243);
+   background: radial-gradient(circle, rgba(33, 149, 243, 0.842) 0%, rgba(33, 149, 243, 0.788) 35%, rgba(0, 70, 128, 0.842) 100%);
 }
 .contenido-iconos{
    padding: 50px 50px 0px 50px;
@@ -170,7 +176,7 @@ width: 250px;
    border: none;
 }
 .contenido-iconos div i{
-   color: #6cc091;
+   color: #81e2fd;
 }
 h1{
    color: #fff;
@@ -197,7 +203,7 @@ h1{
 }
 /*FORMULARIO*/
 #contacto{
-   background: #6cc091;
+   background: #006ac0d3;
    padding: 50px 0px;
    color: #fff;
 }
@@ -226,9 +232,9 @@ form label{
 }
 form input,
 form textarea{
-   background: #6cc091;
+   background: #006ac0;
    border-radius: 10px;
-   border: 2px solid #8dcca9;
+   border: 2px solid #006ac0;
    padding: 10px 5px;
    outline: 0;
    color: #fff;
@@ -237,8 +243,8 @@ form textarea{
 
 form input:focus,
 form textarea:focus{
-border-color: #4dae77;
-box-shadow: 0 0 0 1px #4dae77;
+border-color: #006ac0;
+box-shadow: 0 0 0 1px #006ac0;
 }
 
 form input::placeholder,
@@ -360,7 +366,7 @@ padding: 0 0 0 2%;
 }
 
 .parrafo a:hover{
-   color:#6cc091;
+   color:#c586e0c5;
 }
 
 /*///////////////////////////////////////////////////*/

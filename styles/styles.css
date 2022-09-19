@@ -52,9 +52,9 @@ box-sizing: border-box;
 -moz-appearance: none;
   appearance: none;
 background-color: transparent;
-border: 2px solid #6cc091;
+border: 2px solid #97e9ff;
 border-radius: 0.6em;
-color: #6cc091;
+color: #64deff;
 cursor: pointer;
 display: -webkit-box;
 display: -webkit-flex;
@@ -84,7 +84,7 @@ outline: 0;
 transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 .first:hover {
-box-shadow: 0 0 40px 40px #6cc091 inset;
+box-shadow: 0 0 40px 40px #97e9ff inset;
 }
 
 
@@ -99,7 +99,7 @@ box-shadow: 0 0 40px 40px #6cc091 inset;
   }
 
 .burbujas div {
-  background: rgb(4, 177, 177);
+  background: #97e9ff;
   border-radius: 100%;
   position: absolute;
   bottom: 0;
@@ -171,6 +171,6 @@ box-shadow: 0 0 40px 40px #6cc091 inset;
   100% {
     transform: rotate(90deg);
     bottom: 100vh;
-    background: rgb(4, 177, 177);
+    background: #97e9ff;
   }
 }
